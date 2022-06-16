@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(-45deg,#C9AA19,#000000);
+  background-size:500% 500%;
+  animation:pure 15s ease infinite;
+  height: 100vh;
+}
+@keyframes pure{
+  0%{
+    background-position:0% 50%
+  }
+  50%{
+    background-position:100% 50%
+  }
+  100%{
+    background-position:0% 50%
+  }
+}
+img{
+  height: 500px;
+}
+a{
+  font-size: 70px;
+}
